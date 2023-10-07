@@ -249,9 +249,10 @@ body {
 }
 
 .foot-des {
-    position: relative;
-    left: 10%;
-    width: 30%;
+    left: 5%;
+    width: 25%;
+    /* position: absolute; */
+    top: 10%;
 }
 
 .foot-des>p {
@@ -269,6 +270,6 @@ body {
     position: absolute;
     color: #b5ad8c;
     list-style-type: none;
-    left: 50%;
-    top: 10%;
+    left: 40%;
+    top: 0%;
 }
