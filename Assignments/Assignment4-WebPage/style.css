@@ -99,7 +99,7 @@ body {
     display: block;
 }
 
-.promo2{
+.promo2 {
     position: absolute;
     width: 40%;
     top: 50px;
@@ -119,45 +119,109 @@ body {
 
 .more {
     border-radius: 30px;
-    border: 1px solid ;
+    border: 1px solid;
     color: white;
     font-weight: bold;
     background-color: transparent;
     padding: 10px 30px;
 }
 
-.deals{
+.deals {
     background-color: #0f0f0f;
     color: #fff;
-    padding-top: 40px;
     width: 100%;
     text-align: center;
+    padding: 40px 0px;
 }
 
-.deals-table{
+.deals-table {
     width: 100%;
     padding: 10px 120px;
 }
 
-.deals-head{
+.deals-head {
     font-size: larger;
     font-weight: bold;
 }
 
-.deals-desc{
-    font-size: small;
+.deals-desc {
+    font-size: smaller;
     font-weight: lighter;
 }
 
-.deals-prc{
+.deals-prc {
     font-weight: bold;
     font-size: large;
 }
 
-.deals-ord{
+.deals-ord {
     border-radius: 35px;
     border-color: #ed1c24;
     background-color: #ed1c24;
     color: #fff;
     padding: 10px 40px;
+}
+
+.promotion-2 {
+    background-color: #0f0f0f;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    height: fit-content;
+}
+
+.promotion1-2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.promo2-2 {
+    width: 40%;
+    text-align: justify;
+    /* position: absolute; */
+    margin: 70px 70px;
+    padding-bottom: 50px;
+}
+
+.promo-h2 {
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.more {
+    border-radius: 30px;
+    border: 1px solid #ed1c24;
+    color: white;
+    font-weight: bold;
+    background-color: #ed1c24;
+    padding: 10px 30px;
+}
+
+.promo-h3 {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 200%;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.promo1-3{
+    width: 100%;
+    position: absolute;
+    left: 674px;
+    top: 10px;
+    object-fit: cover;
 }
