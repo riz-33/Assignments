@@ -228,6 +228,8 @@ body {
     width: 100%;
     background-color: #0f0f0f;
     padding-top: 1px;
+    margin: 0%;
+    padding-bottom: 30px;
 }
 
 .social-h {
@@ -236,14 +238,37 @@ body {
     padding-bottom: 10px;
 }
 
-.social-list{
-
-    
+.social-img {
+    margin: 1%;
 }
 
-.social-list>li{
+.footer {
+    background-color: #0f0f0f;
+    position: relative;
+    width: 100%;
+}
+
+.foot-des {
+    position: relative;
+    left: 10%;
+    width: 30%;
+}
+
+.foot-des>p {
+    padding-bottom: 5px;
+    color: #b5ad8c
+}
+
+.foot-des>li {
     display: inline;
-    vertical-align: auto;
-    object-fit: fill;
-    padding-inline: 10px;
+    padding-right: 15px;
+    color: #b5ad8c
+}
+
+.foot-links {
+    position: absolute;
+    color: #b5ad8c;
+    list-style-type: none;
+    left: 50%;
+    top: 10%;
 }
