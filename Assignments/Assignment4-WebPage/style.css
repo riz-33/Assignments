@@ -240,6 +240,7 @@ body {
 
 .social-img {
     margin: 1%;
+    display: block;
 }
 
 .footer {
