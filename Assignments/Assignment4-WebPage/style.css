@@ -263,7 +263,7 @@ body {
 .foot-des>li {
     display: inline;
     padding-right: 15px;
-    color: #b5ad8c
+    color: #b5ad8c;
 }
 
 .foot-links {
@@ -292,4 +292,24 @@ body {
 .socialmedia{
     display: flex;
     margin-bottom: 24px;
+}
+
+.foot-end{
+    color: #fff;
+    background-color: #0f0f0f;
+    border-bottom-style: none;
+    border-top: #fff;
+    border: 1px solid;
+    padding: 5px 100px;
+    position: relative;
+
+}
+
+.foot-end2{
+    /* text-align: right; */
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    padding: 5px 240px;
+    margin: 0%;
 }
