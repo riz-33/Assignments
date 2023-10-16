@@ -1,0 +1,15 @@
+.navigation {
+    float: left;
+    margin-right: 2.75rem;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 400;
+    white-space: nowrap;
+    background: #0025ff;
+    width: 100%;
+}
+
+.body{
+    margin: 0%;
+}
