@@ -1,15 +1,138 @@
-.navigation {
-    float: left;
-    margin-right: 2.75rem;
-    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: .875rem;
-    cursor: pointer;
-    font-weight: 400;
-    white-space: nowrap;
-    background: #0025ff;
-    width: 100%;
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(Fonts/Helvetica\ Neue\ Condensed\ Bold.ttf);
 }
 
-.body{
-    margin: 0%;
+.navbar {
+    background: #0025ff;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 1.5rem;
+    font-family: helvetica neue;
+    font-size: medium;
+    cursor: pointer;
+    font-weight: bolder !important;
+    white-space: nowrap;
+}
+
+.nav-item>a {
+    color: white;
+}
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.pepsi-btn {
+    font-size: medium;
+    font-weight: bolder;
+    height: 2.3em;
+    margin-right: 2%;
+    padding: 2px 30px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Helvetica Neue;
+    cursor: pointer;
+}
+
+@-webkit-keyframes slideInUp {
+    0% {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.pepsi-btn:hover {
+    background-color: white;
+    color: #0025ff;
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+}
+
+@-webkit-keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.logo:hover {
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-duration: calc(var(--animate-duration)*1.3);
+    animation-duration: calc(var(--animate-duration)*1.3);
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
 }
