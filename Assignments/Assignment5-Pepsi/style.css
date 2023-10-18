@@ -3,6 +3,10 @@
     src: url(Fonts/Helvetica\ Neue\ Condensed\ Bold.ttf);
 }
 
+body{
+    font-family: helvetica neue;
+}
+
 .navbar {
     background: #0025ff;
 }
@@ -144,7 +148,7 @@
     object-fit: cover;
     overflow: hidden;
 }
-
+/* 
 .pepsi125>div>h2 {
     color: #fff;
     background-color: black;
@@ -152,7 +156,7 @@
     font-size: 125px;
     font-weight: bold;
     font-family: Helvetica neue, sans-serif;
-}
+} */
 
 /* .pepsi125btn{
     color: #fff;
@@ -163,3 +167,42 @@
     margin: 1em 0 1.3em 0;
     cursor: pointer;
 } */
+
+.pepsi125h1{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0%;
+    display: block;
+    font-size: 100px;
+    margin: 0;
+}
+
+.pepsi125h2{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0%;
+    font-size: 60px;
+    margin: 0;
+}
+
+.pepsi125{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0%;
+}
+
+.pepsi125-btn{
+    text-align: center;
+    color: #fff;
+    background-color: #0025ff;
+    cursor: pointer;
+    font-size: 52px;
+    line-height: 52px;
+    padding: 0.55em;
+    margin: 1em 0 1.3em 0;
+}
