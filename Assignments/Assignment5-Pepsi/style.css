@@ -5,6 +5,7 @@
 
 body {
     font-family: helvetica neue;
+    background-color: black;    
 }
 
 .navbar {
@@ -235,28 +236,21 @@ body {
 
 .social__item-container {
     border: 3px solid #1636ff;
-    display: flex !important;
-    justify-content: center !important;
-    /* flex-flow: row nowrap; */
-    /* align-items: center; */
-}
-
-.social__item>img {
-    height: auto !important;
-    width: 90%;
+    display: flex;
+    display: inline-block;
+    flex-flow: row nowrap;
     
 }
 
-.img {
-    display: flex;
+.social__item-image {
+    height: auto !important;
+    width: 15%;
     justify-content: center;
-
+    margin: 0%;
+    padding: 0%;   
+    align-items: center;
 }
 
-.img>img {
-    height: auto;
-    width: 15%;
-    /* display: inline-flex;
-    justify-content: center;
-    align-items: center; */
+.social__item-image{
+    /* width: 90%; */
 }
