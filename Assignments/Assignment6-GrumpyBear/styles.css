@@ -1,0 +1,79 @@
+.body {
+    padding: 0%;
+    margin: 0%;
+    background: #2f559d;
+    width: 100%;
+}
+.container-fluid{
+    background: transparent url(https://grumpybeartown.com/images/bg1-min.png);
+    background-size: 100%;
+    min-height: 100vh;
+    background-position: bottom;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #6e71c7;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1161px;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+.navlist {
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    cursor: pointer;
+    
+}
+
+.nav-item{
+    padding-inline-start: 40px;
+    font: normal normal normal 18px/22px Helvetica Neue WGL;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: left;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.nav-item:hover{
+    color: blue;
+}
+
+.navlinks{
+    margin-top: 5px;
+    opacity: 1;
+    color: #fff;
+    font: normal normal normal 21px/22px Helvetica Neue WGL;
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+
+.btn-connect{
+    font: normal normal 900 20px/33px Fidel;
+    color: #fff;
+    background: #d53434 0 0 no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    width: 217px;
+    height: 58px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
