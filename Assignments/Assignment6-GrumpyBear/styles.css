@@ -226,12 +226,14 @@
 }
 
 .p2head {
+    font-size: 80px;
     margin-bottom: 50px;
     text-align: center;
     font-family: "Fidel-Black";
     color: #fff;
     margin: 0;
 }
+
 
 .p2content {
     width: 95%;
@@ -242,10 +244,12 @@
 }
 
 .p2content>div>p {
-    font-size: 29px;
+    font-size: 25px;
     font-family: roboto;
     color: #fff;
     font-family: "Roboto";
+    text-align: left;
+    margin-top: 8%;
 }
 
 .p2content>div {
@@ -256,4 +260,20 @@
 .p2content>div>img {
     width: 65%;
 
+}
+
+.page3{
+    background-color: #2f559d;
+    width: 100%;
+    margin: 0% auto;
+    padding: 100px 0px;
+}
+
+.page3>div>h1{
+    text-align: center;
+    font: normal normal 900 83px/104px Fidel;
+    font-family: "Fidel-Black";
+    letter-spacing: 0;
+    color: #fff;
+    margin: 0;
 }
