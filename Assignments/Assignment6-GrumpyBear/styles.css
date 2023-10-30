@@ -262,18 +262,86 @@
 
 }
 
-.page3{
+.page3 {
     background-color: #2f559d;
     width: 100%;
     margin: 0% auto;
     padding: 100px 0px;
 }
 
-.page3>div>h1{
+.page3>div>h1 {
     text-align: center;
     font: normal normal 900 83px/104px Fidel;
     font-family: "Fidel-Black";
     letter-spacing: 0;
     color: #fff;
     margin: 0;
+}
+
+.p3content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 95%;
+    max-width: 1161px;
+    margin: 80px auto 0;
+}
+
+.p3subcont1 {
+    width: 64%;
+}
+
+.p3subcont1>h2 {
+    text-align: left;
+    font: normal normal 900 58px/73px Fidel;
+    font-family: "Fidel-Black";
+    letter-spacing: 0;
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.p3content>div>p {
+    line-height: 40px;
+    font-family: "Fidel-Black";
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.span1 {
+    font-weight: 400 !important;
+    font-size: 36px;
+    letter-spacing: 0;
+    color: #7bd1ff;
+}
+
+.span2 {
+    font-weight: 400;
+    font-size: 37px;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.p3subcont2 {
+    width: 36%;
+}
+
+.p3subcont2>h2{
+    text-align: left;
+    font: normal normal 900 58px/73px Fidel;
+    font-family: "Fidel-Black";
+    letter-spacing: 0;
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.p3subcont2>p{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 40px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
