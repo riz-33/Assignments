@@ -327,7 +327,7 @@
     width: 36%;
 }
 
-.p3subcont2>h2{
+.p3subcont2>h2 {
     text-align: left;
     font: normal normal 900 58px/73px Fidel;
     font-family: "Fidel-Black";
@@ -337,11 +337,115 @@
     margin-block-end: 1em;
 }
 
-.p3subcont2>p{
+.p3subcont2>p {
     display: flex;
     justify-content: space-between;
     width: 100%;
     line-height: 40px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+}
+
+.page4 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: transparent url(https://grumpybeartown.com/images/bg3-min.png);
+    width: 100%;
+    background-color: #b8860b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.p4content {
+    background: #6cb1ed 0 0 no-repeat padding-box;
+    width: 95%;
+    max-width: 1161px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+
+.p4content>div>h1 {
+    color: #fce956;
+    text-align: center;
+    font: normal normal 900 83px/104px Fidel;
+    font-family: "Fidel-Black";
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.p4subcont {
+    margin-top: 50px;
+    background-color: rgb(252, 233, 86);
+    display: flex;
+    padding: 20px 20px;
+}
+
+.watch {
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p4subcont>div>h2 {
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "Fidel-Black";
+    color: rgb(0, 0, 0);
+}
+
+.p4subcont>div>p {
+    font-weight: 700;
+    font-family: "Roboto";
+    color: rgb(13, 13, 13);
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding-left: 10px;
+}
+
+.p4main {
+    margin-top: 100px;
+}
+
+.p4subcont1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.p4subcont1-h>h1 {
+    border: 3px solid rgb(0, 0, 0);
+    opacity: 1;
+    height: 108px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186px !important;
+    margin: 0px;
+    font-family: "Fidel-Black";
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.p4subcont1-p>p{
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: rgb(3, 3, 3);
+    opacity: 1;
+    font-size: 28px;
+    margin: 0px;
+    font-family: "Roboto";
+    font-weight: bold;
 }
