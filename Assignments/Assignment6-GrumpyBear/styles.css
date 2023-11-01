@@ -509,3 +509,12 @@
     background-color: #5496e3;
     padding: 100px 0;
 }
+
+.faqs{
+    color: #fce956;
+    text-align: center;
+    font: normal normal 900 83px/104px Fidel;
+    letter-spacing: 0;
+    font-family: "Fidel-Black";
+    margin: 0;
+}
