@@ -3,6 +3,7 @@
     margin: 0%;
     background: #2f559d;
     width: 100%;
+    /* height: auto; */
 }
 
 .container-fluid {
@@ -436,7 +437,7 @@
     font-size: 50px;
 }
 
-.p4subcont1-p>p{
+.p4subcont1-p>p {
     width: 100%;
     text-align: left;
     padding-left: 20px;
@@ -450,13 +451,13 @@
     font-weight: bold;
 }
 
-.page5{
+.page5 {
     background: transparent url(https://grumpybeartown.com/images/bg4-min.png);
     background-size: cover;
     padding: 60px 0px;
 }
 
-.page5>div>h1{
+.page5>div>h1 {
     color: #d9d344;
     text-align: center;
     font: normal normal 900 83px/104px Fidel;
@@ -465,7 +466,7 @@
     margin: 0;
 }
 
-.slider{
+.slider {
     max-width: 1220px;
     margin: 5% auto;
     display: flex;
@@ -474,21 +475,21 @@
     text-align: center;
 }
 
-.slider>div>img{
+.slider>div>img {
     width: 210px;
 }
 
-.slider>div>i{
+.slider>div>i {
     font-weight: 1800;
 }
 
-.fa-solid{
+.fa-solid {
     color: white;
     font-size: 30px;
     margin-top: 500%;
 }
 
-.slider>div>h3{
+.slider>div>h3 {
     /* text-align: left; */
     font-family: "Roboto";
     font-size: 31px;
@@ -497,7 +498,7 @@
     margin: 20px 0px 15px;
 }
 
-.slider>div>p{
+.slider>div>p {
     font: normal normal 19px/29px Roboto;
     font-family: "Roboto";
     letter-spacing: 0;
@@ -505,16 +506,117 @@
     margin: 0;
 }
 
-.page6{
+.page6 {
     background-color: #5496e3;
     padding: 100px 0;
 }
 
-.faqs{
+.faqs>h1 {
     color: #fce956;
     text-align: center;
-    font: normal normal 900 83px/104px Fidel;
-    letter-spacing: 0;
+    font: normal normal 900 83px/104px !important;
+    font-size: 85px;
     font-family: "Fidel-Black";
+    letter-spacing: 0;
     margin: 0;
+}
+
+.p6content {
+    width: 95%;
+    max-width: 1161px;
+    margin: 50px auto 0;
+}
+
+.p6content>div {
+    margin-bottom: 20px;
+    background-color: #fff !important;
+    padding: 10px 38px 20px;
+    border-radius: 17px;
+}
+
+.p6content>div>h3 {
+    text-align: left;
+    letter-spacing: 0;
+    margin: 0;
+    font: normal normal 700 26px/63px Roboto;
+    font-size: 26px;
+    font-family: "Roboto";
+}
+
+.p6content>div>p {
+    font: normal normal normal 19px/27px Roboto;
+    font-family: "Roboto";
+    text-align: left;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.p6content2 {
+    margin: 30px auto auto;
+    width: 50%;
+    text-align: center;
+}
+
+.p6content2>h1 {
+    font: normal normal 900 45px/56px Fidel;
+    font-family: "Fidel-Black";
+    letter-spacing: 0;
+    color: #fce956;
+    margin: 0 0 10px;
+}
+
+.p6content2>p {
+    font: normal normal normal 23px/33px Roboto;
+    font-family: "Roboto";
+    font-size: 23px;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    margin: 0 0 20px;
+}
+
+.footer {
+    background-color: #003063;
+    text-align: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer>p {
+    font: normal normal 300 22px/43px Roboto;
+    font-family: "Roboto";
+    letter-spacing: 1.1px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.footlinks {
+    font-size: 24px;
+    color: #fff;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footlinks>span>i{
+    cursor: pointer;   
+}
+
+.footlinks>span>i:hover {
+    color: blue;
+}
+
+.top{
+    width: 50px;
+    height: 50px;
+    /* background-color: #fff; */
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.fa-circle-arrow-up{
+    color: white;
 }
