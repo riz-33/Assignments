@@ -21,5 +21,10 @@ var color = ["Red", "Yellow", "Blue", "Green", "Black", "White"]
 
 // document.write (color)
 
-alert = prompt(color + "\n What color you want to add at begining? ")
+alert = prompt( "\n What color you want to add at begining? ")
 
+color[0] = prompt
+console.log (prompt)
+// color.unshift [prompt]
+
+// document.write (prompt)
