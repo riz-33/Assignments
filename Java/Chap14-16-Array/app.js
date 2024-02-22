@@ -17,14 +17,36 @@
 // document.write ("Score of " + students[2] + " is " + score[2] +". Percentage: " + perc3 +"% <br>")
 
 
-var color = ["Red", "Yellow", "Blue", "Green", "Black", "White"]
+// var color = ["Red", "Yellow", "Blue", "Green", "Black", "White"]
 
 // document.write (color)
 
-alert = prompt( "\n What color you want to add at begining? ")
+// alert = prompt( "\n What color you want to add at begining? ")
 
-color[0] = prompt
-console.log (prompt)
+// color[0] = prompt
+// console.log (prompt)
 // color.unshift [prompt]
 
 // document.write (prompt)
+
+// var score = [320, 230, 480, 120]
+
+// score.sort ()
+
+// document.write (score)
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"]
+
+// var selCities = cities.slice (2,4)
+
+// document.write (selCities)
+
+
+var arr = ["This", "is", "my", "cat"]
+
+// arr.join ()
+
+document.write (arr.join(' '))
+
+var devices = ["Keyboard", "Mouse", "Printer", "Monitor"]
+
