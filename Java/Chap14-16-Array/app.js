@@ -42,11 +42,15 @@
 // document.write (selCities)
 
 
-var arr = ["This", "is", "my", "cat"]
+// var arr = ["This", "is", "my", "cat"]
 
-// arr.join ()
+// // arr.join ()
 
-document.write (arr.join(' '))
+// document.write (arr.join(' '))
 
 var devices = ["Keyboard", "Mouse", "Printer", "Monitor"]
+
+var fifo = devices.shift();
+
+console.log (fifo);
 
