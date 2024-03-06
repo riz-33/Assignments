@@ -48,44 +48,48 @@
 
 // document.write (arr.join(' '))
 
-var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
 
-var fifo = devices.shift();
+// var fifo = devices.shift();
 
-console.log (fifo);
+// console.log (fifo);
 
-var fifo = devices.shift();
+// var fifo = devices.shift();
 
-console.log (fifo);
+// console.log (fifo);
 
-var fifo = devices.shift();
+// var fifo = devices.shift();
 
-console.log (fifo);
+// console.log (fifo);
 
-var fifo = devices.shift();
+// var fifo = devices.shift();
 
-console.log (fifo);
+// console.log (fifo);
 
 
 
-var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
 
-var lifo = devices.pop();
+// var lifo = devices.pop();
 
-console.log (lifo);
+// console.log (lifo);
 
-var lifo = devices.pop();
+// var lifo = devices.pop();
 
-console.log (lifo);
+// console.log (lifo);
 
-var lifo = devices.pop();
+// var lifo = devices.pop();
 
-console.log (lifo);
+// console.log (lifo);
 
-var lifo = devices.pop();
+// var lifo = devices.pop();
 
-console.log (lifo);
-
+// console.log (lifo);
 
 var phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
 
+var dropdown = document.getElementById("selectPhone");
+
+for (var i = 0; i < phone.length; ++i) {
+    dropdown[dropdown.length] = new Option(phone[i], phone[i]);
+}
