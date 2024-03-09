@@ -11,8 +11,26 @@
 // }
 
 
-var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
 
-for (var i = 0; i < fruits.length; i++) {
-console.log (i + " " + fruits[i])
+// for (var i = 0; i < fruits.length; i++) {
+// console.log (i + " " + fruits[i])
+// }
+
+
+var items = ["cake", "applePie", "cookie", "chips", "patties"]
+
+var userInput = prompt ("What you want to order", "cake, applePie, cookie, chips, patties")
+
+var flag = "no"
+
+for (var i = 0; i < items.length; i++) {
+    if (userInput === items[i]) {
+        flag = "yes"
+        console.log ("Yes Avaialable")
+    }
+}
+
+if (flag === "no") {
+    console.log ("Sorry, Not Avaialable")
 }
