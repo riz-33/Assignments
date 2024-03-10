@@ -7,3 +7,5 @@
 // console.log ("Welcome!" + firstName + " " + lastName);
 
 
+var city = ("Hyderabad")
+
