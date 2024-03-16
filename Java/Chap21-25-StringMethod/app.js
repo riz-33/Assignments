@@ -7,5 +7,18 @@
 // console.log ("Welcome!" + firstName + " " + lastName);
 
 
-var city = ("Hyderabad")
+// var city = ("Hyderabad");
 
+// var newCity = city.replace ("Hyder" , "Islam" );
+
+// console.log (city);
+
+// console.log (newCity);
+
+var message = ("Ali and Sami are best friends. They play cricket and football together");
+
+var newMessage = message.replace (/and/g , "&");
+
+console.log (message);
+
+console.log (newMessage);
