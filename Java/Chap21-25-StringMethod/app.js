@@ -15,10 +15,14 @@
 
 // console.log (newCity);
 
-var message = ("Ali and Sami are best friends. They play cricket and football together");
+// var message = ("Ali and Sami are best friends. They play cricket and football together");
 
-var newMessage = message.replaceAll ("and" , "&");
+// var newMessage = message.replaceAll ("and" , "&");
 
-console.log (message);
+// console.log (message);
 
-console.log (newMessage);
+// console.log (newMessage);
+
+var userInput = prompt ("Enter Word")
+
+console.log (userInput.toUpperCase())
