@@ -2,12 +2,12 @@ var forward = 0;
 
 function abc() {
     var character = document.getElementById('character');
-    if (event.keyCode === 68) {
+    if (event.keyCode === 68 && forward < 1050) {
         forward = forward + 10;
         character.style.left = forward + 'px'
         character.src = 'Images/Player1-2.gif'
     }
-    if (event.keyCode === 65) {
+    if (event.keyCode === 65 && forward > 10) {
         forward = forward - 10;
         character.style.left = forward + 'px'
         character.src = 'Images/Player1-2.gif'
