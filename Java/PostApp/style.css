@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Josefin_Sans;
+    src: url(/Font/Josefin_Sans/static/JosefinSans-Medium.ttf);
+}
+
+* {
+    font-family: "Josefin_Sans";
+}
+
+.navbar {
+    background-color: #0866FF !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
