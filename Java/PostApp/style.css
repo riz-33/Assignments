@@ -1,10 +1,9 @@
-@font-face {
-    font-family: Josefin_Sans;
-    src: url(/Font/Josefin_Sans/static/JosefinSans-Medium.ttf);
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-* {
-    font-family: "Josefin_Sans";
+body {
+    background-color: aliceblue;
 }
 
 .navbar {
@@ -15,14 +14,14 @@
     color: white !important;
 }
 
-.btn-primary{
-    background-color:  #0866FF;
+.btn-primary {
+    background-color: #0866FF;
 }
 
-.btn-primary:hover{
-    background-color:  #0866FF;
+.btn-primary:hover {
+    background-color: #0866FF;
 }
 
-.btn-primary:active{
-    background-color:  #0866FF !important;
+.btn-primary:active {
+    background-color: #0866FF !important;
 }
