@@ -14,3 +14,15 @@
 .navbar-brand {
     color: white !important;
 }
+
+.btn-primary{
+    background-color:  #0866FF;
+}
+
+.btn-primary:hover{
+    background-color:  #0866FF;
+}
+
+.btn-primary:active{
+    background-color:  #0866FF !important;
+}
