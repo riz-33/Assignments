@@ -25,3 +25,23 @@ body {
 .btn-primary:active {
     background-color: #0866FF !important;
 }
+
+.swal2-actions{
+    width: 100% !important;
+}
+
+.swal2-confirm{
+    background-color: #0866FF !important;
+    width: 90% !important;
+
+}
+
+.images-list{
+    justify-content: space-around;
+}
+
+.images-list>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}

@@ -39,6 +39,16 @@
               <label for="exampleFormControlTextarea1" class="form-label">Description</label>
               <textarea id="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
+            <div class="mb-3">
+              <div class="images-list d-flex">
+                <img src="Images/img1.jpeg" alt="">
+                <img src="Images/img2.jpeg" alt="">
+                <img src="Images/img3.jpeg" alt="">
+                <img src="Images/img4.jpeg" alt="">
+                <img src="Images/img5.jpeg" alt="">
+                <img src="Images/img6.jpeg" alt="">
+              </div>
+            </div>
             <button onClick="addPost()" type="submit" class="btn btn-primary">Post</button>
           </div>
         </div>
@@ -53,17 +63,8 @@
       <div class="col-12 col-sm-12 col-md-3 col-lg-3">
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="p-2">
-          <div class="card p-4">
-            <div class="card-header"> Post </div>
-            <div class="card-body">
-              <blockquote class="blockquote mb-0">
-                <p>A well-known quote, contained in a blockquote element.</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
+        <div id="posts" class="p-2">
+
         </div>
       </div>
     </div>
@@ -75,6 +76,7 @@
 
 
   <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
