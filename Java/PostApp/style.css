@@ -45,3 +45,12 @@ body {
     height: 40px;
     border-radius: 5px;
 }
+
+.images-list-selected {
+    border: 2px solid black;
+}
+
+.card-body {
+    background-size: cover;
+    /* background-image: url(Images/img3.jpeg); */
+}
