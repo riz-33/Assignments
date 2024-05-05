@@ -1,9 +1,9 @@
-var backImage="";
+
+var backgroundImage = "";
 
 function addPost() {
     var title = document.getElementById("title");
     var description = document.getElementById("description")
-    console.log (backImage)
 
     if (title.value.trim() && description.value.trim()) {
 
@@ -11,7 +11,7 @@ function addPost() {
         posts.innerHTML += `
         <div class="card p-4">
         <div class="card-header"> Post </div>
-        <div style="background-image:url (${backImage})" class="card-body">
+        <div style="background-image: url(${backgroundImage})" class="card-body">
         <blockquote class="blockquote mb-1">
         <p> ${title.value} </p>
         <footer class="blockquote-footer"> ${description.value} </footer>
@@ -33,7 +33,7 @@ function addPost() {
 }
 
 function selectImage(src) {
-    backImage = src;
+    backgroundImage = src;
     var bgImage = document.getElementsByClassName("bg-image");
     for (var i = 0; i < bgImage.length; i++) {
         bgImage[i].className = "bg-image"
