@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Rubik;
+    src: url(Font/Rubik-Medium.ttf);
+}
+
+body {
+    font-family: Rubik;
+}
+
+.navbar {
+    background-color: #2B2E4A !important;
+    height: 80px;
+}
+
+.navbar-brand {
+    color: #F77D0A;
+}
+
+.btn-outline-success {
+    background-color: #F77D0A;
+    color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: #F77D0A;
+    color: white;    
+}
