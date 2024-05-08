@@ -25,3 +25,7 @@ body {
     background-color: #F77D0A;
     color: white;    
 }
+
+.form-select {
+    width: 200px;
+}
