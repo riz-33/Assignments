@@ -251,7 +251,7 @@ var carData = {
             Model: 2024,
             Colors: ["White", "Black", "Red"],
             price: "PKR 42,000,000",
-        }
+        },
     },
     audi: {
         q2: {
@@ -294,6 +294,7 @@ var carData = {
 
 var make = document.getElementById("make")
 var model = document.getElementById("model")
+var allCars = document.getElementById("allCars")
 
 make.innerHTML = `<option value="">Select Make</option>`
 model.innerHTML = `<option value="">Select Model</option>`
@@ -302,6 +303,21 @@ for (var key in carData) {
     make.innerHTML += `
     <option value="${key}" >${key.toUpperCase()}</option>
     `
+    for (var key1 in carData[key]){
+        for (var key2 in carData[key][key1]){
+            console.log (carData[key][key1][key2])
+            allCars.innerHTML += `
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">${carData[key][key1][key2].Name}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">${carData[key][key1][key2].Model}</h6>
+                    <h2>Rs ${carData[key][key1][key2].price}</h2>
+                </div>
+            </div>
+        </div>`
+        }
+    }
 }
 
 function onMakeChange() {

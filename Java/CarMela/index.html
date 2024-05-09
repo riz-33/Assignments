@@ -16,14 +16,15 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Car Mela</a>
+            <a class="navbar-brand" href="#">CAR MELA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <form class="d-flex" role="search">
-                <select onchange="onMakeChange()" id="make" class="me-2 form-select" aria-label="Default select example">
+                <select onchange="onMakeChange()" id="make" class="me-2 form-select"
+                    aria-label="Default select example">
                 </select>
 
                 <select id="model" class="me-2 form-select" aria-label="Default select example">
@@ -33,6 +34,9 @@
         </div>
         </div>
     </nav>
+
+    <div id="allCars" class="row p-4">
+    </div>
 
     <script src="app.js"></script>
 </body>
