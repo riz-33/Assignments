@@ -383,17 +383,24 @@ for (var key in carVariants) {
     `
     for (var key1 in carVariants[key]) {
         for (var key2 in carVariants[key][key1]) {
+            var carData = carVariants[key][key1][key2];
+            var colorsDiv = "";
+            for (var i = 0; i < carData.colors.length; i++) {
+                colorsDiv += `<div class="me-2" style="border: 1px solid; width: 20px; height: 20px; border-radius: 10px; background-color: ${carData.colors[i]} ">
+                </div>
+                `
+                // console.log(colorsDiv)
+            }
             allCars.innerHTML += `
         <div class="col">
         <div class="card">
-        <img src="${carVariants[key][key1][key2].image}" class="card-img-top" alt="...">
+        <img src="${carData.image}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">${carVariants[key][key1][key2].name}</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">${carVariants[key][key1][key2].model}</h6>
-                <h2>${carVariants[key][key1][key2].price}</h2>
-                <div>
-                    <div>
-                    </div>
+                <h5 class="card-title">${carData.name}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">${carData.model}</h6>
+                <h2>${carData.price}</h2>
+                <div class="d-flex">
+                ${colorsDiv}
                 </div>
             </div>
         </div>
@@ -416,16 +423,25 @@ function onCompanyChange() {
 
 function filterCars() {
     var carData = carVariants[company.value][brand.value].type
-    allCars.innerHTML = `
+    var colorsDiv = "";
+    for (var i = 0; i < carData.colors.length; i++) {
+        colorsDiv += `<div class="me-2" style="border: 1px solid; width: 20px; height: 20px; border-radius: 10px; background-color: ${carData.colors[i]} ">
+        </div>
+        `
+        allCars.innerHTML = `
         <div class="col mb-2">
             <div class="card">
-        <img src="${carData.image}" class="card-img-top" alt="...">
+        <img style="height:500px; object-fit: cover;" src="${carData.image}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${carData.name}</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">${carData.model}</h6>
                     <h2>${carData.price}</h2>
+                    <div class="d-flex">
+                    ${colorsDiv}
+                    </div>    
              </div>
             </div>
         </div>
         `
+    }
 }
