@@ -389,23 +389,31 @@ for (var key in carVariants) {
                 colorsDiv += `<div class="me-2" style="border: 1px solid; width: 20px; height: 20px; border-radius: 10px; background-color: ${carData.colors[i]} ">
                 </div>
                 `
-                // console.log(colorsDiv)
             }
             allCars.innerHTML += `
-        <div class="col">
-        <div class="card">
-        <img src="${carData.image}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">${carData.name}</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">${carData.model}</h6>
-                <h2>${carData.price}</h2>
-                <div class="d-flex">
-                ${colorsDiv}
+                <div class="p-2 col-3">
+                    <div class="card">
+                        <img src="${carData.image}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">${carData.name}</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">${carData.model}</h6>
+                                <h2>${carData.price}</h2>
+                                    <div class="d-flex">
+                                        ${colorsDiv}
+                                    </div>
+                            </div>
+                </div class="p-2 col-3"> 
+                    <div class="card-body"></div>
+                 <div>   
+                </div class="p-2 col-3"> 
+                     <div class="card-body"></div>
+                <div>           
+                  </div class="p-2 col-3"> 
+                   <div class="card-body"></div>
+                   <div>   
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>`
-            // console.log(carVariants[key][key1][key2])
+            `
         }
     }
 }
@@ -417,7 +425,6 @@ function onCompanyChange() {
         brand.innerHTML += `
         <option value="${key}">${key.toUpperCase()}</option>
         `
-        // console.log(key)
     }
 }
 
@@ -429,10 +436,9 @@ function filterCars() {
         </div>
         `
         allCars.innerHTML = `
-        <div class="col mb-2">
-            <div class="card">
-        <img style="height:500px; object-fit: cover;" src="${carData.image}" class="card-img-top" alt="...">
-                <div class="card-body">
+        <div class="card "> 
+               <img style="height:550px; object-fit: obtain;" src="${carData.image}" class="card-img-top" alt="...">
+               <div class="card-img-overlay">
                     <h5 class="card-title">${carData.name}</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">${carData.model}</h6>
                     <h2>${carData.price}</h2>
