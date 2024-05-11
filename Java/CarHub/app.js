@@ -14,7 +14,7 @@ var carVariants = {
                 image: "Images/Corolla.jpg",
                 name: "Toyota Corolla",
                 model: 2024,
-                price:"PKR 7,550,000",
+                price: "PKR 7,550,000",
                 colors: ["gold", "black", "grey"],
             }
         }
@@ -34,7 +34,7 @@ var carVariants = {
                 image: "Images/Wagon-R.jpg",
                 name: "Suzuki Wagon R",
                 model: 2024,
-                price: "PKR 3,740,000" ,
+                price: "PKR 3,740,000",
                 colors: ["grey", "black", "red"],
             }
         }
