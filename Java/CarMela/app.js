@@ -1,292 +1,314 @@
 var carData = {
     toyota: {
         yaris: {
-            Image: "Images/Yaris.jpg",
-            Name: "Toyota Yaris",
-            Model: 2024,
-            Colors: ["White", "Black", "Blue"],
+            type: {}
+            image: "images/Yaris.jpg",
+            name: "Toyota Yaris",
+            model: 2024,
+            colors: ["White", "Black", "Blue"],
             price: "PKR 5,850,000",
         },
         corolla: {
-            Image: "Images/Corolla.jpg",
-            Name: "Toyota Corolla",
-            Model: 2024,
-            Colors: ["Gold", "Black", "Grey"],
+            type: {}
+            image: "images/Corolla.jpg",
+            name: "Toyota Corolla",
+            model: 2024,
+            colors: ["Gold", "Black", "Grey"],
             price: "PKR 7,550,000",
         },
         rush: {
-            Image: "Images/Rush.jpg",
-            Name: "Toyota Rush",
-            Model: 2024,
-            Colors: ["Red", "Black", "White"],
+            type: {}
+            image: "images/Rush.jpg",
+            name: "Toyota Rush",
+            model: 2024,
+            colors: ["Red", "Black", "White"],
             price: "PKR 8,330,000",
         },
         corollaCross: {
-            Image: "Images/Cross.jpg",
-            Name: "Toyota Corolla Cross",
-            Model: 2024,
-            Colors: ["White", "Black", "Red"],
+            type: {}
+            image: "images/Cross.jpg",
+            name: "Toyota Corolla Cross",
+            model: 2024,
+            colors: ["White", "Black", "Red"],
             price: "PKR 9,850,000",
         },
         hilux: {
-            Image: "Images/Hilux.png",
-            Name: "Toyota Hilux",
-            Model: 2024,
-            Colors: ["Grey", "Black", "Blue"],
+            type: {}
+            image: "images/Hilux.png",
+            name: "Toyota Hilux",
+            model: 2024,
+            colors: ["Grey", "Black", "Blue"],
             price: "PKR 15,400,000",
         },
         fortuner: {
-            Image: "Images/Fortuner.png",
-            Name: "Toyota Fortuner",
-            Model: 2024,
-            Colors: ["White", "Black", "Blue"],
+            type: {}
+            image: "images/Fortuner.png",
+            name: "Toyota Fortuner",
+            model: 2024,
+            colors: ["White", "Black", "Blue"],
             price: "PKR 19,900,000",
         },
         camry: {
-            Image: "Images/Camry.jpg",
-            Name: "Toyota Camry",
-            Model: 2024,
-            Colors: ["Red", "Black", "Blue"],
+            type: {}
+            image: "images/Camry.jpg",
+            name: "Toyota Camry",
+            model: 2024,
+            colors: ["Red", "Black", "Blue"],
             price: "PKR 30,000,000",
         },
         landCruiser: {
-            Image: "Images/Land Cruiser.png",
-            Name: "Toyota Land Cruiser",
-            Model: 2024,
-            Colors: ["White", "Black", "Silver"],
+            type: {}
+            image: "images/Land Cruiser.png",
+            name: "Toyota Land Cruiser",
+            model: 2024,
+            colors: ["White", "Black", "Silver"],
             price: "PKR 120,000,000",
         },
         vitz: {
-            Image: "Images/Vitz.jpg",
-            Name: "Toyota Vitz",
-            Model: 2024,
-            Colors: ["Yellow", "Black", "Blue"],
+            type: {}
+            image: "images/Vitz.jpg",
+            name: "Toyota Vitz",
+            model: 2024,
+            colors: ["Yellow", "Black", "Blue"],
             price: "PKR 4,470,000",
         },
         passo: {
-            Image: "Images/Passo.jpg",
-            Name: "Toyota Passo",
-            Model: 2024,
-            Colors: ["White", "Yellow", "Red"],
+            type: {}
+            image: "images/Passo.jpg",
+            name: "Toyota Passo",
+            model: 2024,
+            colors: ["White", "Yellow", "Red"],
             price: "PKR 3,730,000",
         },
         aqua: {
-            Image: "Images/Aqua.jpg",
-            Name: "Toyota Aqua",
-            Model: 2024,
-            Colors: ["Grey", "Black", "Blue"],
+            type: {}
+            image: "images/Aqua.jpg",
+            name: "Toyota Aqua",
+            model: 2024,
+            colors: ["Grey", "Black", "Blue"],
             price: "PKR 7,170,000",
         }
     },
     suzuki: {
         alto: {
-            Image: "Images/Alto.png",
-            Name: "Suzuki Alto",
-            Model: 2024,
-            Colors: ["Grey", "Black", "Blue"],
+            type: {}
+            image: "images/Alto.png",
+            name: "Suzuki Alto",
+            model: 2024,
+            colors: ["Grey", "Black", "Blue"],
             price: "PKR 3,050,000",
         },
         wagonR: {
-            Image: "Images/Wagon-R.jpg",
-            Name: "Suzuki Wagon R",
-            Model: 2024,
-            Colors: ["Grey", "Black", "Red"],
+            type: {}
+            image: "images/Wagon-R.jpg",
+            name: "Suzuki Wagon R",
+            model: 2024,
+            colors: ["Grey", "Black", "Red"],
             price: "PKR 3,740,000",
         },
         cultus: {
-            Image: "Images/Cultus.png",
-            Name: "Suzuki Cultus",
-            Model: 2024,
-            Colors: ["Grey", "Silver", "Blue"],
+            type: {}
+            image: "images/Cultus.png",
+            name: "Suzuki Cultus",
+            model: 2024,
+            colors: ["Grey", "Silver", "Blue"],
             price: "PKR 4,550,000",
         },
         swift: {
-            Image: "Images/Swift.jpg",
-            Name: "Suzuki Swift",
-            Model: 2024,
-            Colors: ["Red", "Black", "Blue"],
+            type: {}
+            image: "images/Swift.jpg",
+            name: "Suzuki Swift",
+            model: 2024,
+            colors: ["Red", "Black", "Blue"],
             price: "PKR 5,800,000",
         }
     },
     honda: {
         city: {
-            Image: "Images/City.jpg",
-            Name: "Honda City",
-            Model: 2024,
-            Colors: ["Red", "Black", "Blue"],
+            type: {}
+            image: "images/City.jpg",
+            name: "Honda City",
+            model: 2024,
+            colors: ["Red", "Black", "Blue"],
             price: "PKR 5,850,000",
         },
         brv: {
-            Image: "Images/BRV.jpg",
-            Name: "Honda BR-V",
-            Model: 2024,
-            Colors: ["Silver", "Black", "Blue"],
+            type: {}
+            image: "images/BRV.jpg",
+            name: "Honda BR-V",
+            model: 2024,
+            colors: ["Silver", "Black", "Blue"],
             price: "PKR 6,300,000",
         },
         hrv: {
-            Image: "Images/HRV.jpg",
-            Name: "Honda HR-V",
-            Model: 2024,
-            Colors: ["Red", "Black", "Silver"],
+            type: {}
+            image: "images/HRV.jpg",
+            name: "Honda HR-V",
+            model: 2024,
+            colors: ["Red", "Black", "Silver"],
             price: "PKR 7,900,000",
         },
         civic: {
-            Image: "Images/Civic.jpg",
-            Name: "Honda Civic",
-            Model: 2024,
-            Colors: ["White", "Black", "Red"],
+            type: {}
+            image: "images/Civic.jpg",
+            name: "Honda Civic",
+            model: 2024,
+            colors: ["White", "Black", "Red"],
             price: "PKR 9,900,000",
         }
     },
     kia: {
         picanto: {
-            Image: "Images/Picanto.png",
-            Name: "KIA Picanto",
-            Model: 2024,
-            Colors: ["White", "Silver", "Blue"],
+            type: {}
+            image: "images/Picanto.png",
+            name: "KIA Picanto",
+            model: 2024,
+            colors: ["White", "Silver", "Blue"],
             price: "PKR 3,850,000",
         },
         stonic: {
-            Image: "Images/Stonic.jpg",
-            Name: "KIA Stonic",
-            Model: 2024,
-            Colors: ["White", "Black", "Blue"],
+            type: {}
+            image: "images/Stonic.jpg",
+            name: "KIA Stonic",
+            model: 2024,
+            colors: ["White", "Black", "Blue"],
             price: "PKR 5,350,000",
         },
         sportage: {
-            Image: "Images/Sportage.jpg",
-            Name: "KIA Sportage",
-            Model: 2024,
-            Colors: ["Grey", "Black", "Blue"],
+            type: {}
+            image: "images/Sportage.jpg",
+            name: "KIA Sportage",
+            model: 2024,
+            colors: ["Grey", "Black", "Blue"],
             price: "PKR 9,000,000",
         },
         sorento: {
-            Image: "Images/Sorento.jpg",
-            Name: "KIA Sorento",
-            Model: 2024,
-            Colors: ["White", "Black", "Blue"],
+            image: "images/Sorento.jpg",
+            name: "KIA Sorento",
+            model: 2024,
+            colors: ["White", "Black", "Blue"],
             price: "PKR 9,500,000",
         },
         carnival: {
-            Image: "Images/Carnival.jpg",
-            Name: "KIA Grand Carnival",
-            Model: 2024,
-            Colors: ["Silver", "Black", "Blue"],
+            image: "images/Carnival.jpg",
+            name: "KIA Grand Carnival",
+            model: 2024,
+            colors: ["Silver", "Black", "Blue"],
             price: "PKR 16,000,000",
         }
     },
     hyundai: {
         elantra: {
-            Image: "Images/Elantra.jpg",
-            Name: "Hyundai Elantra",
-            Model: 2024,
-            Colors: ["White", "Red", "Grey"],
+            image: "images/Elantra.jpg",
+            name: "Hyundai Elantra",
+            model: 2024,
+            colors: ["White", "Red", "Grey"],
             price: "PKR 6,930,000",
         },
         tucson: {
-            Image: "Images/Tucson.png",
-            Name: "Hyundai Tucson",
-            Model: 2024,
-            Colors: ["Silver", "Black", "Red"],
+            image: "images/Tucson.png",
+            name: "Hyundai Tucson",
+            model: 2024,
+            colors: ["Silver", "Black", "Red"],
             price: "PKR 8,660,000",
         },
         sonata: {
-            Image: "Images/Sonata.jpg",
-            Name: "Hyundai Sonata",
-            Model: 2024,
-            Colors: ["Grey", "Black", "Red"],
+            image: "images/Sonata.jpg",
+            name: "Hyundai Sonata",
+            model: 2024,
+            colors: ["Grey", "Black", "Red"],
             price: "PKR 10,900,000",
         }
     },
     changan: {
         karvaan: {
-            Image: "Images/Karvaan.jpg",
-            Name: "Changan Karvaan",
-            Model: 2024,
-            Colors: ["White", "Black", "Grey"],
+            image: "images/Karvaan.jpg",
+            name: "Changan Karvaan",
+            model: 2024,
+            colors: ["White", "Black", "Grey"],
             price: "PKR 3,000,000",
         },
         alsvin: {
-            Image: "Images/Alsvin.png",
-            Name: "Changan Alsvin",
-            Model: 2024,
-            Colors: ["Red", "Black", "Silver"],
+            image: "images/Alsvin.png",
+            name: "Changan Alsvin",
+            model: 2024,
+            colors: ["Red", "Black", "Silver"],
             price: "PKR 4,550,000",
         },
         oshan: {
-            Image: "Images/Oshan.jpg",
-            Name: "Changan Oshan X7",
-            Model: 2024,
-            Colors: ["Red", "Black", "Silver"],
+            image: "images/Oshan.jpg",
+            name: "Changan Oshan X7",
+            model: 2024,
+            colors: ["Red", "Black", "Silver"],
             price: "PKR 8,550,000",
         }
     },
     mg: {
         mgHs: {
-            Image: "Images/hs.jpg",
-            Name: "MG HS",
-            Model: 2024,
-            Colors: ["White", "Black"],
+            image: "images/hs.jpg",
+            name: "MG HS",
+            model: 2024,
+            colors: ["White", "Black"],
             price: "PKR 8,100,000",
         }
     },
     bmw: {
         x7: {
-            Image: "Images/x7.jpg",
-            Name: "BMW X7",
-            Model: 2024,
-            Colors: ["White", "Black", "Grey"],
+            image: "images/x7.jpg",
+            name: "BMW X7",
+            model: 2024,
+            colors: ["White", "Black", "Grey"],
             price: "PKR 29,000,000",
         },
         x1: {
-            Image: "Images/X1.jpg",
-            Name: "BMW X1",
-            Model: 2024,
-            Colors: ["White", "Black", "Blue"],
+            image: "images/X1.jpg",
+            name: "BMW X1",
+            model: 2024,
+            colors: ["White", "Black", "Blue"],
             price: "PKR 30,000,000",
         },
         i4: {
-            Image: "Images/i4.jpg",
-            Name: "BMW I4",
-            Model: 2024,
-            Colors: ["White", "Black", "Red"],
+            image: "images/i4.jpg",
+            name: "BMW I4",
+            model: 2024,
+            colors: ["White", "Black", "Red"],
             price: "PKR 42,000,000",
         },
     },
     audi: {
         q2: {
-            Image: "Images/Q2.png",
-            Name: "Audi Q2",
-            Model: 2024,
-            Colors: ["White"],
+            image: "images/Q2.png",
+            name: "Audi Q2",
+            model: 2024,
+            colors: ["White"],
             price: "PKR 7,250,000",
         },
         etron: {
-            Image: "Images/E-Tron.png",
-            Name: "Audi E-Tron",
-            Model: 2024,
-            Colors: ["Green", "Silver", "Blue", "Black"],
+            image: "images/E-Tron.png",
+            name: "Audi E-Tron",
+            model: 2024,
+            colors: ["Green", "Silver", "Blue", "Black"],
             price: "PKR 51,000,000",
         },
         gt: {
-            Image: "Images/gt.jpg",
-            Name: "Audi E-Tron GT",
-            Model: 2024,
-            Colors: ["Grey", "Black", "Red"],
+            image: "images/gt.jpg",
+            name: "Audi E-Tron GT",
+            model: 2024,
+            colors: ["Grey", "Black", "Red"],
             price: "PKR 81,000,000",
         },
         a4: {
-            Image: "Images/A4.jpg",
-            Name: "Audi A4",
-            Model: 2024,
-            Colors: ["White", "Black", "Blue"],
+            image: "images/A4.jpg",
+            name: "Audi A4",
+            model: 2024,
+            colors: ["White", "Black", "Blue"],
             price: "PKR 35,000,000",
         },
         a3: {
-            Image: "Images/A3.jpg",
-            Name: "Audi A3",
-            Model: 2024,
-            Colors: ["White", "Black", "Red"],
+            image: "images/A3.jpg",
+            name: "Audi A3",
+            model: 2024,
+            colors: ["White", "Black", "Red"],
             price: "PKR 7,180,000",
         }
     },
@@ -303,8 +325,8 @@ for (var key in carData) {
     brand.innerHTML += `
     <option value="${key}" >${key.toUpperCase()}</option>
     `
-    for (var key1 in carData[key]){
-        for (var key2 in carData[key][key1]){
+    for (var key1 in carData[key]) {
+        for (var key2 in carData[key][key1]) {
             // console.log (carData[key][key1][key2])
             allCars.innerHTML += `
             <div class="col">
@@ -331,6 +353,6 @@ function onBrandChange() {
     }
 }
 
-function filterCars(){
-    console.log (carData[make.value].type)
+function filterCars() {
+    console.log(carData[make.value].type)
 }
