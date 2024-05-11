@@ -22,15 +22,15 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <form class="d-flex" role="search">
-                <select onchange="onMakeChange()" id="make" class="me-2 form-select"
+            <div class="d-flex" role="search">
+                <select onchange="onBrandChange()" id="brand" class="me-2 form-select"
                     aria-label="Default select example">
                 </select>
 
                 <select id="model" class="me-2 form-select" aria-label="Default select example">
                 </select>
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+                <button onclick="filterCars()" class="btn btn-outline-success" type="submit">Search</button>
+            </div>
         </div>
         </div>
     </nav>
