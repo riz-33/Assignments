@@ -27,7 +27,12 @@ body {
 }
 
 .btn-outline-success:hover {
-    background-color: #F77D0A;
+    background-color: white;
+    color: black;
+}
+
+.btn-outline-success:focus {
+    background-color: #F77D0A !important;
     color: white;
 }
 
@@ -41,14 +46,30 @@ body {
     object-fit: ;
 }
 
-.card{
+.card {
     width: 100%;
     height: 100%;
 }
 
-/* @media only screen and (max-width: 992px ){
+/* @media (max-width: 992px ){
     .allcars{
         margin-top: 8%;
     }
     
+} */
+
+/* @media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #2B2E4A;
+        margin-inline: -2%;
+        text-align: center;
+    }
+    .form-select {
+        /* justify-content: space-around; */
+        /* margin-left: 36%;
+        margin-block: 10px;
+    }
+    .allcars{
+        
+    }
 } */
