@@ -450,4 +450,6 @@ function filterCars() {
         </div>
         `
     }
+    var navbtn = document.getElementById('navbarSupportedContent')
+    navbtn.className = "navbar-collapse collapse none"
 }
